@@ -70,3 +70,36 @@ Users can upload their resume, review parsed content, choose a layout, and publi
 ## 🧰 Setup Instructions
 
 ### Clone the Repository
+git clone https://github.com/yourname/portfolio-maker.git
+
+### Backend Setup
+cd backend
+python -m venv venv
+venv/Scripts/activate # For Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+
+### Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+
+
+Then open your browser at [**http://localhost:5173**](http://localhost:5173)
+
+---
+
+## 👋 Contact
+
+**Built by Likith Jandyala**  
+- [LinkedIn](https://www.linkedin.com/in/likithjandyala)  
+- ✉️ [likithjandhyala@gmail.com](mailto:likithjandhyala@gmail.com)
+
+---
+
+## 🪪 License
+
+This project is open-source and free to use for learning or personal portfolio building.
